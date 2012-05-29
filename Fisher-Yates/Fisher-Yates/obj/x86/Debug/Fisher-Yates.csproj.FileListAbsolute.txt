@@ -1,0 +1,4 @@
+C:\Users\Steve\Dropbox\Study\Fisher-Yates\Fisher-Yates\bin\Debug\Fisher-Yates.exe
+C:\Users\Steve\Dropbox\Study\Fisher-Yates\Fisher-Yates\bin\Debug\Fisher-Yates.pdb
+C:\Users\Steve\Dropbox\Study\Fisher-Yates\Fisher-Yates\obj\x86\Debug\Fisher-Yates.exe
+C:\Users\Steve\Dropbox\Study\Fisher-Yates\Fisher-Yates\obj\x86\Debug\Fisher-Yates.pdb

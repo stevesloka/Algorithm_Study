@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{6A250A78-09C9-4E2D-9722-6485BEC6AD18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A250A78-09C9-4E2D-9722-6485BEC6AD18}.Debug|x86.ActiveCfg = Debug|x86
+		{6A250A78-09C9-4E2D-9722-6485BEC6AD18}.Debug|x86.Build.0 = Debug|x86
+		{6A250A78-09C9-4E2D-9722-6485BEC6AD18}.Release|x86.ActiveCfg = Release|x86
+		{6A250A78-09C9-4E2D-9722-6485BEC6AD18}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

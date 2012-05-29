@@ -1,0 +1,4 @@
+C:\Users\Steve\Dropbox\Study\SelectionSort\SelectionSort\bin\Debug\SelectionSort.exe
+C:\Users\Steve\Dropbox\Study\SelectionSort\SelectionSort\bin\Debug\SelectionSort.pdb
+C:\Users\Steve\Dropbox\Study\SelectionSort\SelectionSort\obj\x86\Debug\SelectionSort.exe
+C:\Users\Steve\Dropbox\Study\SelectionSort\SelectionSort\obj\x86\Debug\SelectionSort.pdb

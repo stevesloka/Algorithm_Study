@@ -9,11 +9,17 @@ namespace SelectionSort
     {
         static void Main(string[] args)
         {
+            Random rand = new Random();
+
+            int maxArraySize = 100000;
             int[] array = { 9, 6, 3, 2, 7, 5, 1, 8, 4 };
+            int[] largeArray = new int[maxArraySize];
 
-            Sort(array);
+            for (int i = 0; i < maxArraySize; i++) largeArray[i] = rand.Next();
 
-            foreach (int i in array)
+            Sort(largeArray);
+
+            foreach (int i in largeArray)
             {
                 Console.WriteLine(i);
             }
@@ -23,23 +29,32 @@ namespace SelectionSort
 
         static void Sort(int[] array)
         {
-            int currentElement;
-            int counter;
-
-            //index of element to be compared, index starts at 0
-            for (int i = 1; i < array.Length; i++) //loop trough each element in turn
+            for (int i = 0; i < array.Length; i++)
             {
-                currentElement = array[i];
-                counter = i - 1;
+                int minIndex = i; //Assume the first item in the list is the smallest
 
-                while (counter >= 0 && array[counter] > currentElement)
+                //verify that minValue is the smallest in the list
+                for (int j = i + 1; j < array.Length; j++)
                 {
-                    array[counter + 1] = array[counter]; //move all elements
-                    counter--;
+                    if (array[j] < array[minIndex])
+                    {
+                        minIndex = j;
+                    }
                 }
 
-                array[counter + 1] = currentElement; //Insert element
-            } 
+                if (minIndex != i)
+                {
+                    //Swap
+                    Swap(array, i, minIndex);
+                }
+            }
+        }
+
+        static void Swap(int[] array, int oldLocation, int newLocation)
+        {
+            int tmp = array[newLocation];
+            array[newLocation] = array[oldLocation];
+            array[oldLocation] = tmp;
         }
 
      

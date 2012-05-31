@@ -10,7 +10,7 @@ namespace BubbleSort
         static void Main(string[] args)
         {
             Random rand = new Random();
-            int numElements = 10000000;
+            int numElements = 100000;
             int[] array = { 3, 2, 5, 6, 9, 8, 1, 7, 4 };
             int[] arrayLarge = new int[numElements];
 
